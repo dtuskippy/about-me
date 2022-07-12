@@ -9,6 +9,7 @@ let questionResponseOne = prompt("Do you think I was born in the United States? 
 console.log(questionResponseOne.toLowerCase);
 
 if(questionResponseOne === 'y' || questionResponseOne === 'yes') {
+  console.log("You are right!")
   alert("You are right!")
 } else if(questionResponseOne === 'n' || questionResponseOne === 'no') {
   alert("Sorry, but you are wrong."); 
@@ -17,21 +18,55 @@ if(questionResponseOne === 'y' || questionResponseOne === 'yes') {
 }
 
 
-let questionResponseTwo = prompt("Do you think I ever worked in Cambodia? Please answer yes or no.");
+let questionResponseTwo = prompt("Do you think I ever worked in Cambodia? Please answer yes or no.").toLowerCase();
 console.log(questionResponseTwo.toLowerCase);
-alert("Welcome " + questionResponseOne + " from " + userResponseTwo + "!"); 
 
-let questionResponseThree = prompt("Do you think I ever worked in Afghanistan?  Please answer yes or no.");
+if(questionResponseTwo === 'y' || questionResponseTwo === 'yes') {
+  console.log("You are right!")
+  alert("You are right!")
+} else if(questionResponseTwo === 'n' || questionResponseTwo === 'no') {
+  alert("Sorry, but you are wrong."); 
+} else {
+  alert("Please answer yes or no.");
+}
+
+
+let questionResponseThree = prompt("Do you think I ever worked in Afghanistan?  Please answer yes or no.").toLowerCase();
 console.log(questionResponseThree.toLowerCase);
-alert("Welcome " + questionResponseOne + " from " + userResponseTwo + "!" + " We are glad to hear you like " + userResponseThree + "."); 
 
-let questionResponseFour = prompt("Do you think I speak fluent Portugese? Please answer yes or no.");
-console.log(questoinResponseFour.toLowerCase);
-alert("Welcome " + questionResponseOne + " from " + userResponseTwo + "!" + " We are glad to hear you like " + userResponseThree + " and feed them " + userResponseFour + "."); 
+if(questionResponseThree === 'y' || questionResponseThree === 'yes') {
+  console.log("You are right!")
+  alert("You are right!")
+} else if(questionResponseThree === 'n' || questionResponseThree === 'no') {
+  alert("Sorry, but you are wrong."); 
+} else {
+  alert("Please answer yes or no.");
+}
 
-let questionResponseFive = prompt("Do you think I was married in Europe? Please answer yes or no.");
-console.log(userResponseFive.toLowerCase);
-alert("Welcome " + questionResponseFive + " from " + userResponseTwo + "!" + " We are glad to hear you like " + userResponseThree + " and feed them " + userResponseFour + "."); 
+let questionResponseFour = prompt("Do you think I speak fluent Portugese? Please answer yes or no.").toLowerCase();
+console.log(questionResponseFour.toLowerCase);
+
+if(questionResponseFour === 'y' || questionResponseFour === 'yes') {
+  console.log("You are right!")
+  alert("You are right!")
+} else if(questionResponseFour === 'n' || questionResponseFour === 'no') {
+  alert("Sorry, but you are wrong."); 
+} else {
+  alert("Please answer yes or no.");
+}
+
+let questionResponseFive = prompt("Do you think I was married in Europe? Please answer yes or no.").toLowerCase();
+console.log(questionResponseFive.toLowerCase);
+
+if(questionResponseFive === 'y' || questionResponseFive === 'yes') {
+  console.log("You are right!")
+  alert("You are right!")
+} else if(questionResponseFive === 'n' || questionResponseFive === 'no') {
+  alert("Sorry, but you are wrong."); 
+} else {
+  alert("Please answer yes or no.");
+}
+
 
 alert(`Thank you ${userName} for playing the "About Me Guessing Game!'"); 
 
