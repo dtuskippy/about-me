@@ -21,10 +21,10 @@ if(questionResponseOne === 'y' || questionResponseOne === 'yes') {
 let questionResponseTwo = prompt("Do you think I ever worked in Cambodia? Please answer yes or no.").toLowerCase();
 console.log(questionResponseTwo.toLowerCase);
 
-if(questionResponseTwo === 'y' || questionResponseTwo === 'yes') {
+if(questionResponseTwo === 'n' || questionResponseTwo === 'no') {
   console.log("You are right!")
   alert("You are right!")
-} else if(questionResponseTwo === 'n' || questionResponseTwo === 'no') {
+} else if(questionResponseTwo === 'y' || questionResponseTwo === 'yes') {
   alert("Sorry, but you are wrong."); 
 } else {
   alert("Please answer yes or no.");
@@ -46,10 +46,10 @@ if(questionResponseThree === 'y' || questionResponseThree === 'yes') {
 let questionResponseFour = prompt("Do you think I speak fluent Portugese? Please answer yes or no.").toLowerCase();
 console.log(questionResponseFour.toLowerCase);
 
-if(questionResponseFour === 'y' || questionResponseFour === 'yes') {
-  console.log("You are right!")
+if(questionResponseFour === 'n' || questionResponseFour === 'no') {
+  //console.log("You are right!")
   alert("You are right!")
-} else if(questionResponseFour === 'n' || questionResponseFour === 'no') {
+} else if(questionResponseFour === 'y' || questionResponseFour === 'yes') {
   alert("Sorry, but you are wrong."); 
 } else {
   alert("Please answer yes or no.");
@@ -59,7 +59,7 @@ let questionResponseFive = prompt("Do you think I was married in Europe? Please 
 console.log(questionResponseFive.toLowerCase);
 
 if(questionResponseFive === 'y' || questionResponseFive === 'yes') {
-  console.log("You are right!")
+  //console.log("You are right!")
   alert("You are right!")
 } else if(questionResponseFive === 'n' || questionResponseFive === 'no') {
   alert("Sorry, but you are wrong."); 
