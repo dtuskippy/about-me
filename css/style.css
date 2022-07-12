@@ -1,8 +1,19 @@
+body {
+  background-color: #F2DFCE;
+}
+
 h1 {
   font-size: 3vw;
   color: rgba(255, 0, 0, 0.543);
 }
 
 h2 {
-  color: rgb(18, 128, 18)
+  font-size: 2vw;
+  color: rgb(18, 128, 18);
+}
+
+footer {
+  color:rgba(29, 25, 25, 0.543);
+  font-size: 15px;
+  font-weight: bold;
 }
