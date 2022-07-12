@@ -68,5 +68,5 @@ if(questionResponseFive === 'y' || questionResponseFive === 'yes') {
 }
 
 
-alert(`Thank you ${userName} for playing the "About Me Guessing Game!'"); 
+alert(`Thank you ${userName} for playing the "About Me Guessing Game!"`); 
 
