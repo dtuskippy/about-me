@@ -9,7 +9,7 @@ let questionResponseOne = prompt("Do you think I was born in the United States? 
 console.log(questionResponseOne.toLowerCase);
 
 if(questionResponseOne === 'y' || questionResponseOne === 'yes') {
-  console.log("You are right!")
+  // console.log("You are right!")
   alert("You are right!")
 } else if(questionResponseOne === 'n' || questionResponseOne === 'no') {
   alert("Sorry, but you are wrong."); 
@@ -22,7 +22,7 @@ let questionResponseTwo = prompt("Do you think I ever worked in Cambodia? Please
 console.log(questionResponseTwo.toLowerCase);
 
 if(questionResponseTwo === 'n' || questionResponseTwo === 'no') {
-  console.log("You are right!")
+  // console.log("You are right!")
   alert("You are right!")
 } else if(questionResponseTwo === 'y' || questionResponseTwo === 'yes') {
   alert("Sorry, but you are wrong."); 
@@ -35,7 +35,7 @@ let questionResponseThree = prompt("Do you think I ever worked in Afghanistan?  
 console.log(questionResponseThree.toLowerCase);
 
 if(questionResponseThree === 'y' || questionResponseThree === 'yes') {
-  console.log("You are right!")
+  // console.log("You are right!")
   alert("You are right!")
 } else if(questionResponseThree === 'n' || questionResponseThree === 'no') {
   alert("Sorry, but you are wrong."); 
