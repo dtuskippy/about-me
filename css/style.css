@@ -17,3 +17,7 @@ footer {
   font-size: 15px;
   font-weight: bold;
 }
+
+li {
+  color: rgb(11, 11, 105);
+}
