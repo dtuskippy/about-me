@@ -71,6 +71,15 @@ if(questionResponseFive === 'y' || questionResponseFive === 'yes') {
   alert("Please answer yes or no.");
 }
 
+// temp
+let questionResponseTemp = prompt('Do you know how many alligators I have?  You have up to 4 guesses to pick a number between 1 and 10.');
+
+if(questionResponseTemp == 3) {
+  alert('gators are maters!');
+} else {
+  alert("oh well -- try again");
+}
+
 // Question 6
 
 let count = 0;
@@ -79,7 +88,7 @@ let count = 0;
 for(let i = 1; i <= 4; i++) {
   let questionResponseSix = prompt('Do you know how many pets I have?  You have up to 4 guesses to pick a number between 1 and 10.');
 
-  if(questionResponseSix === 4) {
+  if(questionResponseSix == 4) {
     alert('You are right!');
     uberCount++;
   }else if(questionResponseSix < 4 && questionResponseSix > 0) {
