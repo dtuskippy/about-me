@@ -79,7 +79,8 @@ let count = 0;
 
 for(let i = 1; i <= 4; i++) {
   let promptPullQuestionSix = prompt('Do you know how many pets I have?  You have up to 4 guesses to pick a number between 1 and 10.');
-  let questionReponseSix = Number(promptPullQuestionSix);
+
+  let questionResponseSix = Number(promptPullQuestionSix);
 
   if(questionResponseSix === 4) {
     alert('You are right!');
@@ -100,6 +101,7 @@ for(let i = 1; i <= 4; i++) {
 if(count === 4) {
   alert(`Thank you for playing ${userName}, but you have used up your 4 guesses. The correct answer is 4.`);
 }
+
 
 // Question 7
 let worldCupWinners = ['france', 'germany', 'spain', 'italy'];
