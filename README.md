@@ -19,10 +19,9 @@
 
 ### Links and Resources
 
-    * Help from Audrey with issues with Live Server; did an uninstall and resinstall and it appears to have worked well enough, at least for today!
-    * Also had help from Audrey adjust setting on eslint.
+    * I had help from Audrey with issues with Live Server; did an uninstall and reinstall and it appears to have worked well enough, at least for today!
+    * I also had help from Audrey adjusting settings on eslint.
 
 ## Reflections
-    * Struggled with both questions 6 and 7 to some degree, but ground it out and solved them.
+    * I struggled with both questions 6 and 7 to some degree, but ground it out and solved them.
     * It took almost 4 hours to complete, and I thought it would take about 2 hours originally. 
-
