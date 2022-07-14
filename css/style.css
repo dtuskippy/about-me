@@ -12,6 +12,7 @@ p {
 h1 {
   font-size: 3vw;
   color: rgba(255, 0, 0, 0.543);
+  
 }
 
 h2 {
@@ -29,6 +30,7 @@ ul {
   color: rgb(30, 12, 88);
   list-style-type: square;
   list-style-type: circle;
+  /* list-style-type: "🎓"; */
   margin: 20px;
   
 }
