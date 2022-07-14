@@ -5,6 +5,10 @@ body {
   margin-bottom: 30px;
 }
 
+p {
+  margin-right: 300px;
+}
+
 h1 {
   font-size: 3vw;
   color: rgba(255, 0, 0, 0.543);
