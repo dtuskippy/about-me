@@ -82,6 +82,7 @@ for(let i = 1; i <= 4; i++) {
 
   if(questionResponseSix == 4) {
     alert('You are right!');
+    //console.log('You are right!')
     uberCount++;
     break;
   }else if(questionResponseSix < 4 && questionResponseSix > 0) {
@@ -112,6 +113,7 @@ for(let i = 1; i <= maxGuessCount; i++) {
   for(let j = 0; j < worldCupWinners.length; j++) {
     if(worldCupWinners[j] === worldCupResponse) {
       alert('You are right! The correct answers are France, Germany, Spain and Italy');
+      //console.log('You are right!')
       uberCount++;
       found = true;
     }
