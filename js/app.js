@@ -6,93 +6,84 @@ alert(`Welcome ${userName} to my personal website! I would you like to ask you a
 
 let uberCount = 0;
 
-// questionOne();
-// questionTwo();
-// questionThree();
-// questionFour();
-// questionFive();
-// questionSix();
+questionOne();
+questionTwo();
+questionThree();
+questionFour();
+questionFive();
+questionSix();
 questionSeven();
 
-// // Question 1
 
-// function questionOne(){
-//   let questionResponseOne = prompt("Do you think I was born in the United States?  Please answer yes or no.").toLowerCase();
 
-//   if(questionResponseOne === 'y' || questionResponseOne === 'yes') {
-//     // console.log("You are right!")
-//     alert("You are right!");
-//     uberCount++;
-//   } else if(questionResponseOne === 'n' || questionResponseOne === 'no') {
-//     alert("Sorry, but you are wrong."); 
-//   } else {
-//     alert("Please answer yes or no.");
-//   }
-// }
+function questionOne(){
+  let questionResponseOne = prompt("Do you think I was born in the United States?  Please answer yes or no.").toLowerCase();
 
-// // Question 2
-// function questionTwo(){
-//   let questionResponseTwo = prompt("Do you think I ever worked in Cambodia? Please answer yes or no.").toLowerCase();
+  if(questionResponseOne === 'y' || questionResponseOne === 'yes') {
+    alert("You are right!");
+    uberCount++;
+  } else if(questionResponseOne === 'n' || questionResponseOne === 'no') {
+    alert("Sorry, but you are wrong."); 
+  } else {
+    alert("Please answer yes or no.");
+  }
+}
 
-//   if(questionResponseTwo === 'n' || questionResponseTwo === 'no') {
-//     // console.log("You are right!")
-//     alert("You are right!");
-//     uberCount++;
-//   } else if(questionResponseTwo === 'y' || questionResponseTwo === 'yes') {
-//     alert("Sorry, but you are wrong."); 
-//   } else {
-//     alert("Please answer yes or no.");
-//   }
-// }
-// // Question 3
-// function questionThree(){
-//   let questionResponseThree = prompt("Do you think I ever worked in Afghanistan?  Please answer yes or no.").toLowerCase();
+function questionTwo(){
+  let questionResponseTwo = prompt("Do you think I ever worked in Cambodia? Please answer yes or no.").toLowerCase();
 
-//   if(questionResponseThree === 'y' || questionResponseThree === 'yes') {
-//     // console.log("You are right!")
-//     alert("You are right!");
-//     uberCount++;
-//   } else if(questionResponseThree === 'n' || questionResponseThree === 'no') {
-//     alert("Sorry, but you are wrong."); 
-//   } else {
-//     alert("Please answer yes or no.");
-//   }
-// }
-// // Question 4
-// function questionFour(){
-//   let questionResponseFour = prompt("Do you think I speak fluent Portugese? Please answer yes or no.").toLowerCase();
+  if(questionResponseTwo === 'n' || questionResponseTwo === 'no') {
+    alert("You are right!");
+    uberCount++;
+  } else if(questionResponseTwo === 'y' || questionResponseTwo === 'yes') {
+    alert("Sorry, but you are wrong."); 
+  } else {
+    alert("Please answer yes or no.");
+  }
+}
 
-//   if(questionResponseFour === 'n' || questionResponseFour === 'no') {
-//     //console.log("You are right!")
-//     alert("You are right!");
-//     uberCount++;
-//   } else if(questionResponseFour === 'y' || questionResponseFour === 'yes') {
-//     alert("Sorry, but you are wrong."); 
-//   } else {
-//     alert("Please answer yes or no.");
-//   }
-// }
+function questionThree(){
+  let questionResponseThree = prompt("Do you think I ever worked in Afghanistan?  Please answer yes or no.").toLowerCase();
 
-// // Question 5
-// function questionFive(){
-//   let questionResponseFive = prompt("Do you think I was married in Europe? Please answer yes or no.").toLowerCase();
+  if(questionResponseThree === 'y' || questionResponseThree === 'yes') {
+    alert("You are right!");
+    uberCount++;
+  } else if(questionResponseThree === 'n' || questionResponseThree === 'no') {
+    alert("Sorry, but you are wrong."); 
+  } else {
+    alert("Please answer yes or no.");
+  }
+}
 
-//   if(questionResponseFive === 'y' || questionResponseFive === 'yes') {
-//     //console.log("You are right!")
-//     alert("You are right!")
-//     uberCount++;
-//   } else if(questionResponseFive === 'n' || questionResponseFive === 'no') {
-//     alert("Sorry, but you are wrong."); 
-//   } else {
-//     alert("Please answer yes or no.");
-//   }
-// }
+function questionFour(){
+  let questionResponseFour = prompt("Do you think I speak fluent Portugese? Please answer yes or no.").toLowerCase();
 
-// Question 6
+  if(questionResponseFour === 'n' || questionResponseFour === 'no') {
+    alert("You are right!");
+    uberCount++;
+  } else if(questionResponseFour === 'y' || questionResponseFour === 'yes') {
+    alert("Sorry, but you are wrong."); 
+  } else {
+    alert("Please answer yes or no.");
+  }
+}
+
+
+function questionFive(){
+  let questionResponseFive = prompt("Do you think I was married in Europe? Please answer yes or no.").toLowerCase();
+
+  if(questionResponseFive === 'y' || questionResponseFive === 'yes') {
+    alert("You are right!")
+    uberCount++;
+  } else if(questionResponseFive === 'n' || questionResponseFive === 'no') {
+    alert("Sorry, but you are wrong."); 
+  } else {
+    alert("Please answer yes or no.");
+  }
+}
 
 function questionSix(){
   let count = 0;
-
 
   for(let i = 1; i <= 4; i++) {
     let promptPullQuestionSix = prompt('Do you know how many pets I have?  You have up to 4 guesses to pick a number between 1 and 10.');
@@ -101,7 +92,6 @@ function questionSix(){
 
     if(questionResponseSix === 4) {
       alert('You are right!');
-      //console.log('You are right!')
       uberCount++;
       break;
     }else if(questionResponseSix < 4 && questionResponseSix > 0) {
@@ -120,7 +110,7 @@ function questionSix(){
   }
 }
 
-// Question 7
+
 function questionSeven(){
   let worldCupWinners = ['france', 'germany', 'spain', 'italy'];
   let maxGuessCount = 6;
@@ -134,7 +124,6 @@ function questionSeven(){
     for(let j = 0; j < worldCupWinners.length; j++) {
       if(worldCupWinners[j] === worldCupResponse) {
         alert('You are right! The correct answers are France, Germany, Spain and Italy');
-        //console.log('You are right!')
         uberCount++;
         found = true;
       }
@@ -148,10 +137,6 @@ function questionSeven(){
     alert(`Thank you for playing ${userName}, but you have used up your 6 guesses. The correct answers are France, Germany, Spain and Italy.`);
   }
 }
-
-
-
-//User Score
 
 alert(`Thank you for answering all of those questions.  You got ${uberCount} questions correct out of 7.`)
 
